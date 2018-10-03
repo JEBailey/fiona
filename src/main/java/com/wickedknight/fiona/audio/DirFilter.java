@@ -15,8 +15,3 @@ public class DirFilter extends FileFilter
     return "directory view";
   }
 }
-
-/* Location:           C:\Users\jabail\Desktop\work_folder\jad\fiona.jar
- * Qualified Name:     com.wickedknight.fiona.audio.DirFilter
- * JD-Core Version:    0.6.2
- */

@@ -16,8 +16,3 @@ public abstract interface AudioComponent
 
   public abstract AudioInformation getInformation();
 }
-
-/* Location:           C:\Users\jabail\Desktop\work_folder\jad\fiona.jar
- * Qualified Name:     com.wickedknight.fiona.audio.AudioComponent
- * JD-Core Version:    0.6.2
- */

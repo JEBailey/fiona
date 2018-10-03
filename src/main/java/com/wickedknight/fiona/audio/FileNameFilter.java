@@ -32,8 +32,3 @@ public class FileNameFilter extends FileFilter
     return "default audio";
   }
 }
-
-/* Location:           C:\Users\jabail\Desktop\work_folder\jad\fiona.jar
- * Qualified Name:     com.wickedknight.fiona.audio.FileNameFilter
- * JD-Core Version:    0.6.2
- */

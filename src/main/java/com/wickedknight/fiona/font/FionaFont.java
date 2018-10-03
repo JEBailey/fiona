@@ -10,8 +10,3 @@ public abstract class FionaFont
   {
   }
 }
-
-/* Location:           C:\Users\jabail\Desktop\work_folder\jad\fiona.jar
- * Qualified Name:     com.wickedknight.fiona.font.FionaFont
- * JD-Core Version:    0.6.2
- */

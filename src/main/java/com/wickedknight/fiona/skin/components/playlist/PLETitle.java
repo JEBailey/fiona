@@ -5,6 +5,7 @@ import com.wickedknight.fiona.skin.components.ActiveComponent;
 import com.wickedknight.geom.Rectangle;
 import java.awt.Graphics2D;
 import java.awt.Image;
+import java.awt.event.MouseEvent;
 
 public class PLETitle extends ActiveComponent
 {
@@ -27,6 +28,11 @@ public class PLETitle extends ActiveComponent
   public void paint(Graphics2D paramGraphics2D)
   {
   }
+
+public void mousePressed(MouseEvent e) {
+    // TODO Auto-generated method stub
+    
+}
 }
 
 /* Location:           C:\Users\jabail\Desktop\work_folder\jad\fiona.jar

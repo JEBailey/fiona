@@ -18,8 +18,8 @@ public class EqPlButtons extends ActiveComponent
 
   public EqPlButtons(Skin paramSkin)
   {
-    eqButtonState = 0;
-    plButtonState = 0;
+    eqButtonState = BUTTON_OFF;
+    plButtonState = BUTTON_OFF;
     this.panel = paramSkin.getEqPlPanel();
     this.boundary = new Rectangle(220, 58, 46, 12);
     eqButton = new Rectangle(220, 58, 23, 12);
@@ -65,10 +65,12 @@ public class EqPlButtons extends ActiveComponent
   {
     if ((this.boundary.contains(paramMouseEvent.getPoint())) && (((eqButtonState | plButtonState) & 0x2) == 0))
     {
-      if (eqButton.contains(paramMouseEvent.getPoint()))
-        eqButtonState |= 2;
-      else if (plButton.contains(paramMouseEvent.getPoint()))
-        plButtonState |= 2;
+      if (eqButton.contains(paramMouseEvent.getPoint())) {
+          eqButtonState |= 2;
+      }
+      else if (plButton.contains(paramMouseEvent.getPoint())) {
+          plButtonState |= 2;
+      }
       fireEvent(new FionaEvent(this, 2001));
     }
   }
@@ -104,8 +106,3 @@ public class EqPlButtons extends ActiveComponent
     }
   }
 }
-
-/* Location:           C:\Users\jabail\Desktop\work_folder\jad\fiona.jar
- * Qualified Name:     com.wickedknight.fiona.skin.components.EqPlButtons
- * JD-Core Version:    0.6.2
- */

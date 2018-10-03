@@ -92,9 +92,6 @@ public abstract class ActiveComponent
   {
   }
 
-  public void mousePressed(MouseEvent paramMouseEvent)
-  {
-  }
 
   public void mouseReleased(MouseEvent paramMouseEvent)
   {
